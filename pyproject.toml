@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tts-preprocess-et"
+version = "0.1.0"
+description = "Preprocessing script for Estonian text-to-speech applications"
+authors = ["TartuNLP"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tts_preprocess_et"}]
+
+[tool.poetry.dependencies]
+python = ">=3.6, <3.10"
+estnltk = "1.6.9.1b"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
